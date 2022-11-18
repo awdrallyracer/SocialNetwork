@@ -1,14 +1,15 @@
 import React from "react";
 import { Hat } from "./Image";
 import { Pig } from "./Image";
+import p from './Profile.module.css';
 
 
 const Profile = () => {
     return (
-        <div className='content'>
-            <img src={Hat}></img>
+        <div className={p.content}>
+            <img src={Hat} className={p.hat}></img>
             <div>
-                <img src={Pig} id="Pig"></img>
+                <img src={Pig} className={p.pig}></img>
             </div>
 
             <div>
@@ -20,11 +21,11 @@ const Profile = () => {
                     <div>
                         New post
                     </div>
-                    <div>
-                        <div>
+                    <div className={p.posts}>
+                        <div className={p.item}>
                             Post 1
                         </div>
-                        <div>
+                        <div className={p.item}>
                             Post 2
                         </div>
                     </div>
