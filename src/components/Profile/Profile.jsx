@@ -1,7 +1,8 @@
 import React from "react";
-import { Hat } from "./Image";
-import { Pig } from "./Image";
+import { Hat } from "../Image/Image";
+import { Pig } from "../Image/Image";
 import p from './Profile.module.css';
+import MyPosts from "./MyPosts/MyPosts.jsx"
 
 
 const Profile = () => {
@@ -17,18 +18,7 @@ const Profile = () => {
                     Свиня джакузі.gif
                 </div>
                 <div>
-                    My posts
-                    <div>
-                        New post
-                    </div>
-                    <div className={p.posts}>
-                        <div className={p.item}>
-                            Post 1
-                        </div>
-                        <div className={p.item}>
-                            Post 2
-                        </div>
-                    </div>
+                    <MyPosts />
                 </div>
             </div>
         </div>

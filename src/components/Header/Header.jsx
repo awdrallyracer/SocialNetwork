@@ -1,5 +1,5 @@
 import React from "react";
-import {Logo} from "./Image";
+import {Logo} from "../Image/Image";
 import h from './Header.module.css';
 
 
