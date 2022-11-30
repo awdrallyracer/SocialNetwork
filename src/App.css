@@ -18,3 +18,8 @@ ul li {
   /* grid-gap: 10px; */
 
 }
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: aliceblue;
+}

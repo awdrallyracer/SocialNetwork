@@ -7,7 +7,7 @@ import MyPosts from "./MyPosts/MyPosts.jsx"
 
 const Profile = () => {
     return (
-        <div className={p.content}>
+        <div>
             <img src={Hat} className={p.hat}></img>
             <div>
                 <img src={Pig} className={p.pig}></img>
