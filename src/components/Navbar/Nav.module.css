@@ -1,15 +1,21 @@
 .nav {
-    grid-area: n;
-    background-color: #333333;
-    font-style: normal;
-    color: aliceblue;
-    font-size: large;
-    text-shadow: 1px 1px 1px grey,
-               1px 1px 1px grey;
-    padding-left: 7px;
-    
-  }
-/* 
-  .item{
-    color: red;
-  } */
+  grid-area: n;
+  background-color: #333333;
+  font-style: normal;
+  color: aliceblue;
+  font-size: large;
+  text-shadow: 1px 1px 1px grey,
+    1px 1px 1px grey;
+  padding-left: 7px;
+  padding: 20px;
+
+}
+
+.item a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.item a.activeLink {
+  color: #333333;
+}
