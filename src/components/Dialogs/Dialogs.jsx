@@ -29,6 +29,7 @@ const Dialogs = (props) => {
                 <Message text="Hi" />
                 <Message text="How you doing?" />
                 <Message text="Let's drink some coffee tomorrow" />
+
             </div>
         </div>
 
