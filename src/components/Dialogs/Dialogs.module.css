@@ -8,18 +8,19 @@
 
 }
 
-.dialogItems .active{
+.dialogItems .active {
     color: aliceblue;
     text-decoration: none;
     background-color: #333333;
     text-align: center;
     border-radius: 50px;
+    padding: 2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .messages {
     padding: 10px;
 }
 
-.messages .message {
-
-}
+.messages .message {}

@@ -7,12 +7,16 @@ const MyPosts = () => {
     return (
 
         <div>
-            My posts
+            <h3>My posts</h3>
             <div>
-                <textarea></textarea>
-                <button>Add post</button>
+                <div>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <button>Add post</button>
+                </div>
             </div>
-            <div>
+            <div className={p.postsBlock}>
                 <Post message='Hi, how are you?' likeCounter='5' />
                 <Post message="It's my first post" likeCounter='10' />
             </div>

@@ -1,27 +1,17 @@
 import React from "react";
-import { Hat } from "../Image/Image";
-import { Pig } from "../Image/Image";
 import p from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts.jsx"
+import ProfileInfo from "./ProfileInfo/ProfileInfo.jsx";
 
 
 const Profile = () => {
     return (
         <div>
-            <img src={Hat} className={p.hat}></img>
-            <div>
-                <img src={Pig} className={p.pig}></img>
-            </div>
+            <ProfileInfo />
 
-            <div>
-                <div>
-                    Свиня джакузі.gif
-                </div>
-                <div>
-                    <MyPosts />
-                </div>
-            </div>
+            <MyPosts />
         </div>
+
     )
 }
 
