@@ -1,4 +1,3 @@
-import React from "react";
 
 let dialogsData = [
     { id: 1, name: 'Andrii' },
