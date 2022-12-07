@@ -4,5 +4,5 @@ const Logo = require('../../assets/SocialNetworkLogo.png')
 const Hat = require('../../assets/hat.jpg')
 const Pig = require('../../assets/pig.jpg')
 
-export {Hat, Logo, Pig}
+export { Hat, Logo, Pig }
 

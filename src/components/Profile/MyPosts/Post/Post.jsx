@@ -1,7 +1,6 @@
 import React from "react";
 import p from './Post.module.css';
 
-
 const Post = (props) => {
 
     return (
@@ -17,4 +16,3 @@ const Post = (props) => {
 
 export default Post;
 
-//Ctrl + K + C

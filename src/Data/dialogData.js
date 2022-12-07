@@ -1,4 +1,3 @@
-
 let dialogsData = [
     { id: 1, name: 'Andrii' },
     { id: 2, name: 'Anton' },
