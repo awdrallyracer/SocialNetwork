@@ -7,7 +7,7 @@ const Profile = (props) => {
         <div>
             <ProfileInfo />
 
-            <MyPosts postsData={props.postsData} />
+            <MyPosts postsData={props.state.postsData} />
         </div>
 
     )
@@ -15,4 +15,3 @@ const Profile = (props) => {
 
 export default Profile;
 
-//Ctrl + K + C
