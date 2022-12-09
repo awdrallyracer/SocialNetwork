@@ -1,5 +1,13 @@
 .messages {
     padding: 10px;
+    color: aliceblue;
+    background-color: #333333;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
 .messages .message {}
