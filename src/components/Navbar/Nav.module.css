@@ -26,3 +26,11 @@
   padding-right: 5px;
   padding-bottom: 1px;
 }
+
+.friends{
+  grid-area: n;
+  background-color: #333333;
+  font-style: normal;
+  color: aliceblue;
+  
+}
