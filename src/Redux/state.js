@@ -1,8 +1,8 @@
 let state = {
     profilePage: {
         postsData: [
-            { message: "Hi, how are you?", likeCounter: '5' },
-            { message: "It's my first post", likeCounter: '10' }
+            { id: 1, message: "Hi, how are you?", likeCounter: '5' },
+            { id: 2, message: "It's my first post", likeCounter: '10' }
         ]
     },
 
@@ -20,5 +20,26 @@ let state = {
         ]
     }
 };
+
+export let addPost = (post) => {
+    let newPost = {
+        id: 5,
+        message: post,
+        likeCounter: 15
+    };
+
+    state.profilePage.postsData.push(newPost);
+}
+
+export let addMessage = (message) => {
+
+    let newMessage = {
+        id: 5,
+        text: message
+    };
+
+    state.dialogsPage.messagesData.push(newMessage);
+}
+
 
 export default state;
