@@ -12,6 +12,7 @@ const MyPosts = (props) => {
     let addNewPost = () => {
         let text = newPostElement.current.value;
         props.addPost(text);
+        newPostElement.current.value = '';
         console.log(state.profilePage.postsData);
     };
 
